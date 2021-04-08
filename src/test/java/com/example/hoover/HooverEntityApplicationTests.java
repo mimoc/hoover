@@ -30,8 +30,6 @@ class HooverEntityApplicationTests {
 	void contextLoads() {
 	}
 
-	static HooverRequest hooverRequest = new HooverRequest();
-
 	@Test
 	public void test_Input_From_Example() throws Exception {
 		HooverRequest hooverRequest = createHooverRequest(new Integer[]{5,5},new Integer[]{1,2},new Integer[][]{{1, 0},{2, 2},{2, 3}},"NNESEESWNWW");
