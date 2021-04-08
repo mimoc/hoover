@@ -3,7 +3,7 @@ package com.example.hoover.filter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.CommonsRequestLoggingFilter;
-
+/* log request and response*/
 @Configuration
 public class ConfigurationFiler {
 

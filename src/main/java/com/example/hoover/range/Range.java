@@ -5,7 +5,7 @@ import com.example.hoover.model.Point;
 import com.example.hoover.model.Spot;
 
 import java.util.List;
-
+/* determines if a Patch is in Path range and removes the Patch*/
 public class Range {
 
     public static void isInRange(Point start,Point end, List<Spot> spotList){

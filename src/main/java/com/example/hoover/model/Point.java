@@ -1,7 +1,7 @@
 package com.example.hoover.model;
 
 public class Point {
-    private Integer x,y;
+    private volatile Integer x,y;
 
     public Point(Integer[] coordinates) {
         this.x = coordinates[0];
