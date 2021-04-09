@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Table(name="HOOVER")
 public class HooverEntity {
     @Id
-    @GeneratedValue()
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     @Column(name="Request")
     private String request;
